@@ -5,7 +5,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Create Event',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Create an awesome event'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped></style>
